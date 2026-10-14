@@ -11001,9 +11001,20 @@ footer.footer .social-link:hover {
   border: 0;
 }
 
+.story-map {
+  min-height: 28rem;
+  height: 65vh;
+  background: #e9ecef;
+}
+
 @media (max-width: 992px) {
   .map {
     height: 75%;
+  }
+
+  .story-map {
+    min-height: 24rem;
+    height: 60vh;
   }
 }
 .masthead {
