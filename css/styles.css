@@ -10991,22 +10991,6 @@ footer.footer .social-link:hover {
   text-decoration: none;
 }
 
-.map {
-  height: 30rem;
-}
-.map iframe {
-  pointer-events: none;
-  height: 100%;
-  width: 100%;
-  border: 0;
-}
-
-.story-map {
-  min-height: 28rem;
-  height: 65vh;
-  background: #e9ecef;
-}
-
 @media (max-width: 992px) {
   .map {
     height: 75%;
@@ -11025,11 +11009,15 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url("../assets/img/safrica_provinces_95.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.map-masthead {
+  background: #1D809F;
+  }
+
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
   margin: 0;
